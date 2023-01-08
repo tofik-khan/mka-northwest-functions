@@ -1,0 +1,10 @@
+{
+    "name": "send-sms",
+    "version": "1.0.0",
+    "description": "Cron function to send automated text messages",
+    "main": "main.js",
+    "dependencies": {
+        "mongodb": "^4.12.1"
+    },
+    "devDependencies": {}
+  }
