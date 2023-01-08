@@ -4,7 +4,6 @@ exports.main = async (args) => {
     console.log("...Initiating Function...");
 
     let khuddam = await getAllKhuddam();
-    console.log(khuddam);
     dispatchMessage(khuddam, args.message);
     return {"body": "Done!"}
 }
@@ -51,7 +50,6 @@ function dispatchMessage(userArray, message) {
             to: element.phone, // Text this number
             messagingServiceSid: process.env.TWILIO_SERVICE_SID,
         })
-        .then((message) => console.log(message))
 
     });
 }
