@@ -14,6 +14,9 @@ packages:
           web: true
           websecure: false
           parameters: {}
-          environment: {}
+          environment: 
+            MONGODB_USERNAME: "${MONGODB_USERNAME}"
+            MONGODB_PASSWORD: "${MONGODB_PASSWORD}"
+            MONGODB_CLUSTER: "${MONGODB_CLUSTER}"
           annotations: {}
           limits: {}
