@@ -18,5 +18,8 @@ packages:
             MONGODB_USERNAME: "${MONGODB_USERNAME}"
             MONGODB_PASSWORD: "${MONGODB_PASSWORD}"
             MONGODB_CLUSTER: "${MONGODB_CLUSTER}"
+            TWILIO_ACCOUNT_SID: "${TWILIO_ACCOUNT_SID}"
+            TWILIO_AUTH_TOKEN: "${TWILIO_AUTH_TOKEN}"
+            TWILIO_SERVICE_SID: "${TWILIO_SERVICE_SID}"
           annotations: {}
           limits: {}
