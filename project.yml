@@ -1,0 +1,19 @@
+parameters: {}
+environment: {}
+packages:
+    - name: mka-northwest
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: send-sms
+          binary: false
+          main: ""
+          runtime: nodejs:default
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
